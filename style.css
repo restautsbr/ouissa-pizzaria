@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(243, 237, 237);
+    margin: 0%;
+}
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    width:100% ;
+    max-height: 200px;
+}
+header img{
+      width: 300px;
+   
+      border-radius: 50%;
+      object-fit: cover
+
+}
+
+.icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+ .fb{ 
+    background-color: rgb(31, 12,168);
+    color: white;
+    transition: 0.3s;
+ } 
+.ig {
+    border: 1px solid white;
+    color: white;
+    transition: 0.3s;
+     background:linear-gradient(135deg, #f58529 0%, #dd2a7b 50%, #8134af 100%);
+   
+}
+.fb:hover {
+    transform: scale(1.1);
+    
+}
+.ig:hover{
+    transform: scale(1.1);
+   
+}
+button{
+
+
+}  
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f3ef;
+}
+
+.header {
+    background: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.hero {
+    background: #d8cfc4;
+    padding: 60px;
+    text-align: center;
+}
+
+section {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.menu-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.hero {
+    background-image: url("pizza.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+
+    animation: zoomBg 10s ease-in-out infinite alternate;
+}
+
+@keyframes zoomBg {
+    from {
+        background-size: 100%;
+    }
+    to {
+        background-size: 110%;
+    }
+}
+
+.btn {
+    background: #d4a373;
+    padding: 12px 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.btn:hover{
+    transform: scale(1.1);
+    background: #8C5e34;
+}
+.apropos {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.apropos img {
+    width: 350px;
+    border-radius: 10px;
+}
+.menu-item {
+    display: flex;
+    gap: 20px;
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.menu-item img {
+    width: 150px;
+    border-radius: 10px;
+}
+.menu {
+    max-width: 900px;
+    margin: auto;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* Taille fixe des images */
+.menu-item img {
+    width: 160px;
+    height: 120px;
+    object-fit: cover;   /* IMPORTANT */
+    border-radius: 10px;
+}
+
+.menu-text h3 {
+    margin: 0;
+}
+
+.menu-text span {
+    font-weight: bold;
+    color: #b07d48;
+}
